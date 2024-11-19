@@ -1,0 +1,89 @@
+/* Navbar Section */
+.navbar {
+  background-color: #f8f9fa;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar-brand {
+  margin-right: auto;
+}
+
+/* Wrapper Section */
+@media (max-width: 375px) {
+  .wrapper {
+    width: 100%;   /* Take full width on iPhone SE */
+    padding-top: 70px; /* Adjust padding for smaller screen to avoid overlap */
+  }
+}
+.wrapper {
+  width: 500px;
+  height: 80%;
+}
+
+/* Tabs and Pills Section */
+.nav-pills {
+  --bs-nav-pills-border-radius: 1rem;
+}
+
+.nav-pills .nav-link.active {
+  background-color: rgba(18, 174, 195, 0.956) !important;
+  color: white;
+}
+
+/* Form Inputs and Buttons */
+input {
+  margin: 0;
+}
+
+.btn {
+  background-color: rgb(250, 88, 38);
+  width: 100%;
+  color: white;
+}
+
+.btn-blue {
+  background-color: rgb(255, 255, 255) !important;
+  color: black;
+}
+
+.btn-blue:hover {
+  color: white !important;
+}
+
+button .btn-link{
+  padding: 0;
+  margin: 0;
+}
+
+.btn-link {
+  background-color: white;
+}
+
+.form-check-input:checked {
+  background-color: rgba(18, 174, 195, 0.956) !important;
+}
+
+#flexSwitchCheckChecked {
+  width: 40px; 
+  height: 25px; 
+}
+
+#flexSwitchCheckChecked:checked {
+  background-color: black !important;
+}
+
+/* Text and Typography */
+
+a {
+  color: rgba(11, 142, 159, 0.956) !important;
+}
+
+/* Footer Section */
+footer {
+  background-color: rgb(250, 88, 38);
+}
+
